@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/julien/Julien.unity
+    guid: feb72ef1a41a43f498995a49191e784d
   m_configObjects: {}
