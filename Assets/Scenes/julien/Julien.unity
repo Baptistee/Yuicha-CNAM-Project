@@ -1568,6 +1568,7 @@ MonoBehaviour:
   toBeAnimated:
   - {fileID: 71447285}
   - {fileID: 159685027}
+  - {fileID: 156433463}
 --- !u!65 &535231165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4606,7 +4607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: -0.2728872
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
       propertyPath: m_LocalPosition.z
