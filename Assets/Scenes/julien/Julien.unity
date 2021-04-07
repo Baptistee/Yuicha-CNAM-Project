@@ -415,6 +415,7 @@ GameObject:
   - component: {fileID: 71447288}
   - component: {fileID: 71447287}
   - component: {fileID: 71447286}
+  - component: {fileID: 71447291}
   m_Layer: 0
   m_Name: Baguette1
   m_TagString: Untagged
@@ -518,6 +519,19 @@ Transform:
   m_Father: {fileID: 490736164}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -92.513, y: 0, z: 0}
+--- !u!114 &71447291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71447285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4b1aac5fd4e314499932864088c7a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toBeAnimated: {fileID: 159685027}
 --- !u!1 &106828989
 GameObject:
   m_ObjectHideFlags: 0
