@@ -200,8 +200,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3219690}
-  m_LocalRotation: {x: 0.21021461, y: -0.011428109, z: 0.0024560483, w: 0.9775854}
-  m_LocalPosition: {x: 59.276722, y: -4.752239, z: -18.323082}
+  m_LocalRotation: {x: 0.3709903, y: -0.011979349, z: 0.004797911, w: 0.9285471}
+  m_LocalPosition: {x: 59.46054, y: -4.0686293, z: -18.630077}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1875226194}
@@ -689,6 +689,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122802422}
   m_CullTransparentMesh: 0
+--- !u!1 &156433463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
+  m_PrefabInstance: {fileID: 1925208576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &156433464
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156433463}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ea0a6bdbcc1e48488f82342ce2fd956, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &159685027
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +726,6 @@ GameObject:
   - component: {fileID: 159685030}
   - component: {fileID: 159685029}
   - component: {fileID: 159685028}
-  - component: {fileID: 159685033}
   m_Layer: 0
   m_Name: Baguette2
   m_TagString: Untagged
@@ -806,19 +829,6 @@ Transform:
   m_Father: {fileID: 490736164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -92.513, y: 0, z: 0}
---- !u!114 &159685033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159685027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b1aac5fd4e314499932864088c7a46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toBeAnimated: {fileID: 71447285}
 --- !u!1001 &210097376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4563,11 +4573,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.27288723
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24700165
+      value: 0.2470016
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4619,7 +4629,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 451f327dec5c6334eb71298d52ae906f, type: 2}
     - target: {fileID: 919132149155446097, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
       propertyPath: m_Name
-      value: model (21)
+      value: charbon_anime
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
