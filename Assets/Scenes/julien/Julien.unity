@@ -415,7 +415,6 @@ GameObject:
   - component: {fileID: 71447288}
   - component: {fileID: 71447287}
   - component: {fileID: 71447286}
-  - component: {fileID: 71447291}
   m_Layer: 0
   m_Name: Baguette1
   m_TagString: Untagged
@@ -519,19 +518,6 @@ Transform:
   m_Father: {fileID: 490736164}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -92.513, y: 0, z: 0}
---- !u!114 &71447291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71447285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b1aac5fd4e314499932864088c7a46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toBeAnimated: {fileID: 159685027}
 --- !u!1 &106828989
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,7 +702,6 @@ GameObject:
   - component: {fileID: 159685030}
   - component: {fileID: 159685029}
   - component: {fileID: 159685028}
-  - component: {fileID: 159685033}
   m_Layer: 0
   m_Name: Baguette2
   m_TagString: Untagged
@@ -820,19 +805,6 @@ Transform:
   m_Father: {fileID: 490736164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -92.513, y: 0, z: 0}
---- !u!114 &159685033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159685027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b1aac5fd4e314499932864088c7a46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toBeAnimated: {fileID: 71447285}
 --- !u!1001 &210097376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1552,6 +1524,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4f72f80d7e25e814daff0b1510cd4f43, type: 3}
   m_PrefabInstance: {fileID: 516323028}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &535231160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2769569872040073304, guid: 9af1767a331a4d346aee5b6993715274, type: 3}
+  m_PrefabInstance: {fileID: 2070446339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &535231164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535231160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4b1aac5fd4e314499932864088c7a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toBeAnimated:
+  - {fileID: 71447285}
+  - {fileID: 159685027}
+--- !u!65 &535231165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535231160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 72.90227, y: 98.584076, z: 64.932236}
+  m_Center: {x: 16.249744, y: -0.00049550534, z: 32.46484}
 --- !u!1 &580433979
 GameObject:
   m_ObjectHideFlags: 0

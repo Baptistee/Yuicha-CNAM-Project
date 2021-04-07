@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class animateOnClick : MonoBehaviour
 {
-    public GameObject toBeAnimated;
+    public GameObject[] toBeAnimated;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,9 @@ public class animateOnClick : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        GetComponent<Animator>().SetTrigger("beginAnimation");
-        toBeAnimated.GetComponent<Animator>().SetTrigger("beginAnimation");
+        foreach(GameObject tba in toBeAnimated)
+        {
+            tba.GetComponent<Animator>().SetTrigger("beginAnimation");
+        }
     }
 }
