@@ -75,7 +75,7 @@
 				float2 uv = fragCoord.xy / iResolution.xy;
 				float4 vals = tex2D(_Texture, uv);
 
-				float3 myColor = float3(_Color.r * _Color.a, _Color.g * _Color.a, _Color.b * _Color.a);
+				float3 myColor = lerp(vals.rgb, _Color.rgb, _Color.a);
 
 				fragColor = float4(vals) * float4(myColor, 1.);
 			}
