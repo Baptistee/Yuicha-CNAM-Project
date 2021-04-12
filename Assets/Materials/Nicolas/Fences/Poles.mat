@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bamboo
+  m_Name: Poles
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: a32f0e2f9c327174b8173642176f6012, type: 3}
+        m_Texture: {fileID: 2800000, guid: 324c5c341d9b5444797b754e2008345b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 2800000, guid: b5147b72651bf7e4290d7b5db3f2c538, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1e401bf900c0eee46bb2b6711d93666a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -37,22 +37,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 0.001, y: 0.001}
+        m_Scale: {x: 1, y: 0.3}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7dbafc0c460c60748985d1f967fa0ee9, type: 3}
-        m_Scale: {x: 0.001, y: 0.001}
+        m_Texture: {fileID: 2800000, guid: 34338a083e49ea94d834a10ee90ab8d2, type: 3}
+        m_Scale: {x: 1, y: 0.3}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 428ec8d99339a6a4cacbff1d33862d29, type: 3}
+        m_Texture: {fileID: 2800000, guid: 762518c6a17bad543be08ca9ccc50618, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: d38accfad95bd3b469d50c0f60a4f434, type: 3}
+        m_Texture: {fileID: 2800000, guid: e4a5ceb4d13e43349ac4900e586afa7c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
