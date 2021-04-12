@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Z.meta
+guid: 494ca18763218554798909567c05e815
+=======
 guid: d2f467e0a5302ab4a94f030c872a83b8
+>>>>>>> main:Assets/Prefabs/Trou.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

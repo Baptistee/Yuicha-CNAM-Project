@@ -1,10 +1,20 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class AnimatedObjects
+{
+    public float beginAt = 0f;
+    
+    public GameObject[] objects;
+    public string triggerName = "beginAnimation";
+}
+
 public class animateOnClick : MonoBehaviour
 {
-    public GameObject[] toBeAnimated;
+    
+    public List<AnimatedObjects> animatedObjects;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +29,19 @@ public class animateOnClick : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        foreach(GameObject tba in toBeAnimated)
+        foreach(AnimatedObjects animObj in animatedObjects)
         {
-            tba.GetComponent<Animator>().SetTrigger("beginAnimation");
+            StartCoroutine(playAfterDelay(animObj.beginAt, animObj.objects, animObj.triggerName));
+        }
+    }
+
+    IEnumerator playAfterDelay(float beginAt, GameObject[] objects, string triggerName)
+    {
+        yield return new WaitForSeconds(beginAt);
+        
+        foreach(GameObject obj in objects)
+        {
+            obj.GetComponent<Animator>().SetTrigger(triggerName);
         }
     }
 }
