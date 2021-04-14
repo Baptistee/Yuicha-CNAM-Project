@@ -1620,6 +1620,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1922646643}
     m_Modifications:
+    - target: {fileID: 1816884629, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
+      propertyPath: animatedObjects.Array.data[0].objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 435306744}
+    - target: {fileID: 1816884629, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
+      propertyPath: animatedObjects.Array.data[0].objects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1952218540}
+    - target: {fileID: 1816884629, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
+      propertyPath: animatedObjects.Array.data[0].objects.Array.data[2]
+      value: 
+      objectReference: {fileID: 972085826}
+    - target: {fileID: 1816884629, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
+      propertyPath: animatedObjects.Array.data[1].objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1133340068}
+    - target: {fileID: 1816884629, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
+      propertyPath: animatedObjects.Array.data[1].objects.Array.data[1]
+      value: 
+      objectReference: {fileID: 553749020}
+    - target: {fileID: 1816884629, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
+      propertyPath: animatedObjects.Array.data[2].objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1493167549}
     - target: {fileID: 5174122136104574086, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
       propertyPath: m_Name
       value: Theiere
@@ -1668,28 +1692,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 193.583
       objectReference: {fileID: 0}
-    - target: {fileID: 6582329432780192341, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
-      propertyPath: toBeAnimated.Array.data[0]
-      value: 
-      objectReference: {fileID: 435306744}
-    - target: {fileID: 6582329432780192341, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
-      propertyPath: toBeAnimated.Array.data[1]
-      value: 
-      objectReference: {fileID: 1952218540}
-    - target: {fileID: 6582329432780192341, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
-      propertyPath: toBeAnimated.Array.data[2]
-      value: 
-      objectReference: {fileID: 972085826}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
 --- !u!4 &1381795955 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5514090429274900028, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
-  m_PrefabInstance: {fileID: 1381795954}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1381795956 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5174122136104574086, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
   m_PrefabInstance: {fileID: 1381795954}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1422636567
@@ -2025,43 +2032,6 @@ Transform:
   m_Father: {fileID: 1875226194}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 36.693, y: 0, z: 0}
---- !u!1 &1816884628 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4198453587000222815, guid: 1f6e823b8bc21ef4b954d544afe681ce, type: 3}
-  m_PrefabInstance: {fileID: 1381795954}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1816884629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816884628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b1aac5fd4e314499932864088c7a46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animatedObjects:
-  - beginAt: 0
-    objects:
-    - {fileID: 435306744}
-    - {fileID: 1952218540}
-    - {fileID: 972085826}
-    triggerName: beginAnimation
-  - beginAt: 9
-    objects:
-    - {fileID: 1133340068}
-    - {fileID: 553749020}
-    triggerName: beginAnimation
-  - beginAt: 17
-    objects:
-    - {fileID: 1493167549}
-    triggerName: beginAnimation
-  - beginAt: 36
-    objects:
-    - {fileID: 1381795956}
-    triggerName: beginAnimation
 --- !u!1001 &1873060097
 PrefabInstance:
   m_ObjectHideFlags: 0
